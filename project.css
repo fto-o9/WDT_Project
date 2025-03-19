@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font type */
+    background-color: #f0f0f0; /* Set the background color of the page */
+    margin: 0; /* Remove default margins */
+    padding: 20px; /* Add padding around the body */
+}
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+    background: #ffffff; /* Background color of the container */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+h1 {
+    text-align: center; /* Center the heading */
+    color: #003366; /* Color of the heading */
+}
+.input-container {
+    display: flex; /* Use flexbox to arrange items */
+    justify-content: space-between; /* Space items evenly */
+    margin-bottom: 20px; /* Add margin below the input container */
+}
+input[type="text"] {
+    width: calc(100% - 120px); /* Width of the input field */
+    padding: 12px; /* Add padding inside the input field */
+    border: 1px solid #ccc; /* Border for the input field */
+    border-radius: 5px; /* Rounded corners for the input field */
+    font-size: 16px; /* Font size */
+}
+button {
+    padding: 12px 20px; /* Add padding for the button */
+    background-color: #003366; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size for the button */
+    transition: background-color 0.3s; /* Transition effect for background color */
+}
+button:hover {
+    background-color: #00509e; /* Lighter color on hover */
+}
+button.remove-btn {
+    background-color: #dc3545; /* Background color for remove button */
+}
+button.remove-btn:hover {
+    background-color: #c82333; /* Lighter color on hover for remove button */
+}
+ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove padding */
+    margin: 20px 0 0; /* Margin for the list */
+}
+li {
+    display: flex; /* Use flexbox to arrange items in the list */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically align items */
+    padding: 12px; /* Add padding for list items */
+    border: 1px solid #ddd; /* Border for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    margin-bottom: 10px; /* Margin below each list item */
+    background-color: #e9f3ff; /* Background color for list items */
+    transition: background-color 0.3s; /* Transition effect for background color */
+}
+li:hover {
+    background-color: #d0e1ff; /* Lighter color on hover for list items */
+}
